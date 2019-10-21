@@ -1,4 +1,8 @@
 import React, {Component} from "react"
+import {Router} from "@reach/router"
+
+import Work from "./Work"
+import Home from "./Home"
 
 import "./Mainview.css"
 
@@ -10,7 +14,10 @@ class Mainview extends Component {
     render() {
         return (
             <div className="mainview">
-                main view
+                <Router>
+                    <Home path="/"/>
+                    <Work path="work"/>
+                </Router>
             </div>
         );
     }
