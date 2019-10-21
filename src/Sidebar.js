@@ -16,10 +16,6 @@ class Sidebar extends Component {
                 <ul>
                     <li><Link to="/"><Icon name="home-outline" size="xxLarge" animation={{type: "pulse", hover: true, infinite: true }}/>Home</Link></li>
                     <li> <Link to="work"><Icon name="briefcase-outline" size="xxLarge" animation={{type: "pulse", hover: true, infinite: true }}/>Work</Link></li>
-
-                   
-                    
-
                 </ul>
               </nav>
               <div className="social-links">
