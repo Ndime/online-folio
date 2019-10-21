@@ -1,0 +1,4 @@
+.body-wrapper{
+    flex:1 1 calc(100% - 40px);
+    min-height:100vh;
+}

@@ -1,0 +1,28 @@
+.sidebar{
+    background:rgba(14, 17, 24);
+    flex-basis: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;}
+
+.sidebar ul{
+    padding: 2rem 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+.sidebar ul li{
+    padding: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 100;
+    min-height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sidebar ul li:hover{
+    cursor: pointer;
+    background: #FA6862;
+}
