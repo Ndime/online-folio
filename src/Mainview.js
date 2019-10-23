@@ -3,6 +3,7 @@ import {Router} from "@reach/router"
 
 import Work from "./Work"
 import Home from "./Home"
+import NotFound from "./NotFound"
 
 import "./Mainview.css"
 
@@ -17,6 +18,7 @@ class Mainview extends Component {
                 <Router>
                     <Home path="/"/>
                     <Work path="work"/>
+                    <NotFound default/>
                 </Router>
             </div>
         );
