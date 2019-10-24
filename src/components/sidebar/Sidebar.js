@@ -20,8 +20,8 @@ class Sidebar extends Component {
               </nav>
               <div className="social-links">
               <ul>
-               <li><a href="https://github.com/Ndime" target="_blank" rel="noopener noreferrer"><Icon name="github-outline" size="xxLarge"/>Github</a></li>
-               <li><a href="https://www.linkedin.com/in/terencendime/" target="_blank" rel="noopener noreferrer"><Icon name="linkedin-outline" size="xxLarge" />LinkedIn</a></li>
+               <li><a href="https://www.linkedin.com/in/terencendime/" rel="noopener noreferrer"><Icon name="linkedin-outline" size="xxLarge" />LinkedIn</a></li>
+               <li><a href="https://github.com/Ndime"  rel="noopener noreferrer"><Icon name="github-outline" size="xxLarge"/>Github</a></li>
            </ul>
               </div>
           </div>  

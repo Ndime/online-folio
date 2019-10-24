@@ -10,16 +10,17 @@ class Home extends Component {
     }
     render() {
         return (
-            <div>
-                <div className="firstsection-wrapper">
+           
+                <div className="section-wrapper">
                     <div className="picture-of-me">
-                        <img width={500} src={Myphoto} title="terence Ndime" alt="Portrait of me"/>
+                        <img src={Myphoto} title="terence Ndime" alt="Portrait of me"/>
                     </div>
                     <div className="about-me-text">
-
+                        <h1>Terence NDIME</h1>
+                        <p>5+ years experienced,result-oriented Microsoft certified professional full stack web developer with a proven track record of developing rich internet applications using modern web technologies both on the front and backend.</p>
                     </div>
                 </div>
-            </div>
+           
         );
     }
 }

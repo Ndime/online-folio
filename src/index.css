@@ -5,7 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  font-family: 'poppins', sans-serif;
   color: white;
+}
+h1{
+  font-family: 'Playfair Display', serif
+}
+p{
+  font-weight: 200;
 }
 
 code {

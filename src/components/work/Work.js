@@ -7,44 +7,7 @@ class Work extends Component {
     }
     render() {
         return (
-          <div>
-              <p>Work</p>
-              <p>Work</p>
-              <p>Work</p>
-              <p>Work</p>
-              <p>Work</p>
-              <p>Work</p>
-              <p>Work</p>
-              <p>Work</p>
-              <p>Work</p>
-              <p>Work</p>
-              <p>Work</p>
-              <p>Work</p>
-              <p>Work</p>
-              <p>Work</p>
-              <p>Work</p>
-              <p>Work</p>
-              <p>Work</p>
-              <p>Work</p>
-              <p>Work</p>
-              <p>Work</p>
-              <p>Work</p>
-              <p>Work</p>
-              <p>Work</p>
-              <p>Work</p>
-              <p>Work</p>
-              <p>Work</p>
-              <p>Work</p>
-              <p>Work</p>
-              <p>Work</p>
-              <p>Work</p>
-              <p>Work</p>
-              <p>Work</p>
-              <p>Work</p>
-              <p>Work</p>
-              <p>Work</p>
-              <p>Work</p>
-              <p>Work</p>
+          <div className="section-wrapper">
               <p>Work</p>
               <p>Work</p>
               <p>Work</p>

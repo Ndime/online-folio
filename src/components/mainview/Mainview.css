@@ -1,4 +1,3 @@
 .mainview{
-    padding: 4rem 4rem 0;
-    min-height: calc(100vh - 9.4rem);
+    min-height: 100vh;
 }

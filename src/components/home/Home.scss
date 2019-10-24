@@ -1,16 +1,83 @@
-.firstsection-wrapper{
+.section-wrapper{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 6rem 4rem;
 
     .picture-of-me{
-        position: relative;
+        flex-basis: 50%;
+        align-self: center;
         img{
             border-radius: 50%;
-            max-width: 500px;
+            max-width: 400px;
             width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
         }
     }
     .about-me-text{
+        flex-basis: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
 
+        h1{
+            font-size: 4rem;
+            margin-bottom: 0rem;
+        }
+        p{
+            font-size: 1.5rem;
+        }
     }
+}
+
+
+@media all and(min-width: 1440px){
+    .section-wrapper{
+        .about-me-text p {
+            padding-right: 8rem;
+        }
+    }
+}
+
+
+@media all and(max-width: 1024px){
+    .section-wrapper{
+        flex-direction: column;
+        align-items: center;
+        .about-me-text{
+            text-align: center;
+     
+             h1{
+                 font-size: 3rem;
+             }
+             p{
+                 font-size: 1.2rem;
+             }
+         }
+    }
+    
+}
+
+
+
+@media all and(max-width: 580px){
+    .section-wrapper{
+        flex-direction: column;
+        align-items: center;
+        padding: 6rem 2rem;
+        .about-me-text{
+            text-align: center;
+     
+             h1{
+                font-size: 2.1rem;
+             }
+             p{
+                 font-size: 1rem;
+             }
+         }
+    }
+    
 }
