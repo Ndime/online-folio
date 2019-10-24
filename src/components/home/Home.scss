@@ -1,0 +1,16 @@
+.firstsection-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+
+    .picture-of-me{
+        position: relative;
+        img{
+            border-radius: 50%;
+            max-width: 500px;
+            width: 100%;
+        }
+    }
+    .about-me-text{
+
+    }
+}

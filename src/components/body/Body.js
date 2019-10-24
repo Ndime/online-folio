@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
-import Footer from "./Footer"
-import Mainview from "./Mainview"
+import Footer from "../footer/Footer"
+import Mainview from "../mainview/Mainview"
 
 import "./Body.css"
 

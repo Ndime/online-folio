@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
-import Body from "./Body"
-import Sidebar from "./Sidebar"
+import Body from "./components/body/Body"
+import Sidebar from "./components/sidebar/Sidebar"
 import folioData from "./data/folio"
 
 import './App.css';

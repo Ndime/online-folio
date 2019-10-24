@@ -1,9 +1,9 @@
 import React, {Component} from "react"
 import {Router} from "@reach/router"
 
-import Work from "./Work"
-import Home from "./Home"
-import NotFound from "./NotFound"
+import Work from "../work/Work"
+import Home from "../home/Home"
+import NotFound from "../notfound/NotFound"
 
 import "./Mainview.css"
 

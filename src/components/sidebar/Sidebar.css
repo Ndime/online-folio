@@ -1,6 +1,6 @@
 .sidebar{
     background: rgba(14, 17, 24);
-    flex-basis: 40px;
+    width: 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -8,6 +8,20 @@
     bottom: 0;
     top: 0;
     right: 0;
+}
+.sidebar nav:after {
+    content: "";
+    width: 1px;
+    background: rgb(57, 61, 69);
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    transition: .2s;
+    z-index: -1;
+}
+
+.sidebar nav, .sidebar div.social-links{
+  background: rgba(14, 17, 24);
 }
 
 .sidebar ul{
@@ -37,6 +51,11 @@
 }
 
 
+
+
+
+
+
 @media all and (max-width: 768px){
 .sidebar{
     top: auto;
@@ -44,6 +63,10 @@
     right: 0;
     flex-direction: row;
     justify-content: space-evenly;
+    width: auto;
+}
+.sidebar nav:after {
+display: none;
 }
 .sidebar nav, .sidebar div.social-links{
     flex:1
