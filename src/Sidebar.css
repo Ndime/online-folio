@@ -1,9 +1,14 @@
 .sidebar{
-    background:rgba(14, 17, 24);
+    background: rgba(14, 17, 24);
     flex-basis: 40px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;}
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    right: 0;
+}
 
 .sidebar ul{
     padding: 2rem 0;
@@ -11,7 +16,10 @@
     list-style: none;
 }
 
-
+.sidebar ul li{
+    cursor: pointer;
+    transition: .3s;
+}
 .sidebar ul li a {
     padding: 1rem;
     text-transform: uppercase;
@@ -24,7 +32,28 @@
     text-decoration: none;
     color: #fff;
 }
-.sidebar ul li:hover{
-    cursor: pointer;
+.sidebar ul li:hover,.sidebar ul li:active{
     background: #FA6862;
+}
+
+
+@media all and (max-width: 768px){
+.sidebar{
+    top: auto;
+    left: 0;
+    right: 0;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.sidebar nav, .sidebar div.social-links{
+    flex:1
+}
+.sidebar ul{
+    display: flex;
+    padding: 0;
+} 
+.sidebar ul li {
+    flex: 1 1 100%;
+}
+
 }
