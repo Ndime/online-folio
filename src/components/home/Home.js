@@ -1,6 +1,4 @@
-import React, { Component } from 'react';
-
-import * as Myphoto from "../../assets/images/terence.jpg"
+import React, { Component, Suspense }  from 'react';
 
 import "./Home.scss"
 class Home extends Component {
@@ -9,11 +7,16 @@ class Home extends Component {
         this.state = {  };
     }
     render() {
+        const HomeProfileImage = React.lazy(() => import("./HomeProfileImage") )
+
         return (
            
                 <div className="section-wrapper">
                     <div className="picture-of-me">
-                        <img src={Myphoto} title="terence Ndime" alt="Portrait of me"/>
+                        <Suspense fallback={<div>Loading...</div>}>
+                        <HomeProfileImage/>
+                        </Suspense>
+                       
                     </div>
                     <div className="about-me-text">
                         <h1>Terence NDIME</h1>
