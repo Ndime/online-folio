@@ -92,7 +92,7 @@ const folio = [{
 {
 	name: "trypto app",
 	link:"https://trypto.herokuapp.com/",
-	type:"cryptocurrency simulator",
+	type:"Web app",
 	descr:"",
 	skills: ["reactjs", "jsx", "redux", "react router", "firebase", "javscript", "npm"],
 	thumbnail: trypto,
