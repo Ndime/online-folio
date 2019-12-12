@@ -1,0 +1,33 @@
+.section_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 6rem 4rem;
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    
+}
+.folio_card{
+    position: relative;
+    cursor: pointer;
+    transition: .3s;
+}
+.folio_card h3{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    line-height: 1;
+    margin: 0;
+    transition: .3s;
+}
+.folio_card span{
+text-transform: uppercase;
+}
+.folio_card img{width: 100%;transition: .3s;}
+
+.folio_title_descr{
+    position: absolute;
+    top:0px;
+    padding: 2rem;
+    transition: .3s;
+}

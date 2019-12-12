@@ -3,10 +3,16 @@
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 6rem 4rem;
+    overflow: hidden;
 
     .picture-of-me{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         flex-basis: 50%;
         align-self: center;
+        position: relative;
+        z-index: 0;
         img{
             border-radius: 50%;
             max-width: 400px;
@@ -15,6 +21,48 @@
             justify-content: center;
             align-items: center;
             margin: auto;
+        }
+        .circle{
+            position: absolute;
+            max-width: 300px;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            transition: 1s;
+            animation: circle_rotate 6s infinite linear;  
+            filter: blur(30px) contrast(.8);
+        }
+
+        .circle_1{
+           animation-delay: 0s;
+            background-color: purple;
+            z-index: -1;
+        }
+        .circle_2{
+            animation-delay: 1s;
+            background-color: #3F51B5;
+            z-index: -1;
+        }
+        .circle_3{
+            animation-delay: 2s;
+            background-color: #00BCD4;
+            z-index: -1;
+        }
+        .circle_4{
+            animation-delay: 3s;
+            background-color: #0D47A1;
+            z-index: -1;
+        }
+        .circle_5{
+            animation-delay: 4s;
+            background-color: #0097A7;
+            z-index: -1;
+        
+        }
+        .circle_6{
+            animation-delay: 5s;
+            background-color: skyblue;
+            z-index: -1;
         }
     }
     .about-me-text{
@@ -26,10 +74,35 @@
         h1{
             font-size: 4rem;
             margin-bottom: 0rem;
+            position: relative;
+            &:after{   
+                font-family: poppins;
+                font-weight: 500;
+                content: "Frontend / UI / ReactJS Developer";
+                position: absolute;
+                font-size: 1.4rem;
+                bottom: -2rem;
+                left: 0;
+                background: #FA6862;
+                padding: .2rem 1rem;
+            }
         }
         p{
             font-size: 1.5rem;
         }
+    }
+}
+
+@keyframes circle_rotate{
+    0%{
+        transform: rotate(0deg) translateY(0%);
+      
+    }
+    25%{
+        transform: rotate(45deg) translateY(25%);
+    }
+    100%{
+        transform: rotate(360deg) translateY(0%);
     }
 }
 

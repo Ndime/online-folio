@@ -1,3 +1,14 @@
+import raphvee from "../assets/images/1.jpg"
+import myglamsy from "../assets/images/2.jpg"
+import terence from "../assets/images/3.jpg"
+import creartfrique from "../assets/images/4.jpg"
+import simplyprepaidactivations from "../assets/images/5.jpg"
+import royalplace from "../assets/images/6.jpg"
+import ifindrental from "../assets/images/7.jpg"
+import mylewa from "../assets/images/8.jpg"
+import todolist from "../assets/images/9.jpg"
+import trypto from "../assets/images/10.jpg"
+
 
 const folio = [{
 	name: "raphvee designs",
@@ -5,15 +16,15 @@ const folio = [{
 	type:"ecommerce",
 	descr:"",
 	skills: ["wordpress", "woocommerce", "html", "css", "javscript", "jQuery", "php", "mysql"],
-	thumbnail: "",
+	thumbnail: raphvee,
 	otherPics: []
 },{
-	name: "my glamsy",
+	name: "myglamsy",
 	link:"https://myglamsy.com/",
 	type:"ecommerce",
 	descr:"",
 	skills: ["wordpress", "woocommerce", "html", "css", "javscript", "jQuery", "php", "mysql"],
-	thumbnail: "",
+	thumbnail: myglamsy,
 	otherPics: []
 },
 {
@@ -22,7 +33,7 @@ const folio = [{
 	type:"online portfolio",
 	descr:"",
 	skills: ["reactjs", "jsx", "redux", "router", "firebase", "javscript", "npm"],
-	thumbnail: "",
+	thumbnail: terence,
 	otherPics: []
 },{
 	name: "creartfrique",
@@ -30,7 +41,7 @@ const folio = [{
 	type:"ecommerce",
 	descr:"",
 	skills: ["wordpress", "woocommerce", "html", "css", "javscript", "jQuery", "php", "mysql"],
-	thumbnail: "",
+	thumbnail: creartfrique,
 	otherPics: []
 },
 {
@@ -39,7 +50,7 @@ const folio = [{
 	type:"Phone dealer",
 	descr:"",
 	skills: ["html", "css", "javscript", "jQuery", "php", "mysql"],
-	thumbnail: "",
+	thumbnail: simplyprepaidactivations,
 	otherPics: []
 },
 {
@@ -48,7 +59,7 @@ const folio = [{
 	type:"church ministry",
 	descr:"",
 	skills: ["wordpress","html", "css", "javscript", "jQuery", "php", "mysql"],
-	thumbnail: "",
+	thumbnail: royalplace,
 	otherPics: []
 },
 {
@@ -57,7 +68,7 @@ const folio = [{
 	type:"real estate",
 	descr:"A place were property owners and renters meet and interact in cameroon.",
 	skills: ["wordpress", "woocommerce", "html", "css", "javscript", "jQuery", "php", "mysql"],
-	thumbnail: "",
+	thumbnail: ifindrental,
 	otherPics: []
 },
 {
@@ -66,7 +77,7 @@ const folio = [{
 	type:"todo app",
 	descr:"A place were property owners and renters meet and interact in cameroon.",
 	skills: ["nodejs","mongodb","expressjs", "javscript", "jquery"],
-	thumbnail: "",
+	thumbnail: todolist,
 	otherPics: []
 },
 {
@@ -75,7 +86,7 @@ const folio = [{
 	type:"Social network",
 	descr:"",
 	skills: ["html", "css", "javscript", "jQuery", "php", "mysql"],
-	thumbnail: "",
+	thumbnail: mylewa,
 	otherPics: []
 },
 {
@@ -84,7 +95,7 @@ const folio = [{
 	type:"cryptocurrency simulator",
 	descr:"",
 	skills: ["reactjs", "jsx", "redux", "react router", "firebase", "javscript", "npm"],
-	thumbnail: "",
+	thumbnail: trypto,
 	otherPics: []
 }]
 

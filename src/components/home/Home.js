@@ -19,6 +19,13 @@ class Home extends Component {
                         <HomeProfileImage/>
                         </LazyLoad>
                         </Suspense>
+                        <div className="circle circle_1"></div>
+                        <div className="circle circle_2"></div>
+                        <div className="circle circle_3"></div>
+                        <div className="circle circle_4"></div>
+                        <div className="circle circle_5"></div>
+                        <div className="circle circle_6"></div>
+                       
                     </div>
                     <div className="about-me-text">
                         <h1>Terence NDIME</h1>
