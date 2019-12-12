@@ -22,8 +22,6 @@ class Work extends Component {
                                 <p>{curr.descr}</p>
                             </div>
                         </div>
-
-
                     )
                 })}
             </div>
