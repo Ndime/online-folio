@@ -1,13 +1,13 @@
 import React,{Component} from 'react';
 import Icon from "react-eva-icons";
-import {Link} from "@reach/router"
+import {Link} from "react-router-dom";
 
 import "./Sidebar.css"
 
 class Sidebar extends Component {
     constructor(props) {
         super(props);
-        this.state = {  };
+        this.state = {};
     }
     render() {
         return (
@@ -15,7 +15,7 @@ class Sidebar extends Component {
               <nav>
                 <ul>
                     <li><Link to="/"><Icon name="home-outline" size="xxLarge" />Home</Link></li>
-                    <li> <Link to="work"><Icon name="briefcase-outline" size="xxLarge" />Work</Link></li>
+                    <li> <Link to="/work"><Icon name="briefcase-outline" size="xxLarge" />Work</Link></li>
                 </ul>
               </nav>
               <div className="social-links">

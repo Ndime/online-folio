@@ -1,5 +1,5 @@
 import React, {Component} from "react"
-import {Router} from "@reach/router"
+import {Switch, Route} from "react-router-dom"
 
 import Work from "../work/Work"
 import Home from "../home/Home"
@@ -15,11 +15,23 @@ class Mainview extends Component {
     render() {
         return (
             <div className="mainview">
-                <Router>
-                    <Home path="/"/>
-                    <Work path="work"/>
+                
+                <Switch>
+                    <Route exact path="/">
+                        <Home/>
+                    </Route>
+
+                    <Route exact path="/work">
+                        <Work/>
+                    </Route>
+                    
+                    <Route>
                     <NotFound default/>
-                </Router>
+                    </Route>
+                   
+                    
+                </Switch>
+                
             </div>
         );
     }

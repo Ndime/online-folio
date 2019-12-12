@@ -1,4 +1,5 @@
 import React, { Component, Suspense }  from 'react';
+import LazyLoad from 'react-lazyload';
 
 import "./Home.scss"
 class Home extends Component {
@@ -14,9 +15,10 @@ class Home extends Component {
                 <div className="section-wrapper">
                     <div className="picture-of-me">
                         <Suspense fallback={<div>Loading...</div>}>
+                            <LazyLoad>
                         <HomeProfileImage/>
+                        </LazyLoad>
                         </Suspense>
-                       
                     </div>
                     <div className="about-me-text">
                         <h1>Terence NDIME</h1>
