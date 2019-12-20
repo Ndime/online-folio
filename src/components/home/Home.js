@@ -16,7 +16,7 @@ class Home extends Component {
             <>
                 <div className="section-wrapper">
                     <div className="picture-of-me">
-                        <Suspense fallback={<div>Loading...</div>}>
+                        <Suspense fallback={<div style={{width:"300px",height:"300px"}}>Loading...</div>}>
                             <LazyLoad>
                         <HomeProfileImage/>
                         </LazyLoad>
