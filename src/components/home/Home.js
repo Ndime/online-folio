@@ -1,6 +1,5 @@
 import React, { Component, Suspense }  from 'react';
 import LazyLoad from 'react-lazyload';
-import MoveStuffTicker from '../movestuffticker/MoveStuffTicker'
 
 import "./Home.scss"
 
@@ -39,7 +38,10 @@ class Home extends Component {
                     
                 </div>
                     <div className="tech-stack">
-                    <MoveStuffTicker/>
+                    <div className="tech-stack-item">heuryeure</div>
+                     <div className="tech-stack-item">ererer</div>
+                     <div className="tech-stack-item">sadfdsfs</div>
+                     <div className="tech-stack-item">ggr</div>
                         
                     </div>
                 </>
