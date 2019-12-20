@@ -9,7 +9,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-basis: 50%;
+        flex-basis: 40%;
         align-self: center;
         position: relative;
         z-index: 0;
@@ -32,7 +32,7 @@
             border-radius: 50%;
             transition: 1s;
             animation: circle_rotate 6s infinite linear;  
-            filter: blur(30px) contrast(.8);
+            filter: blur(20px) contrast(.8);
         }
 
         .circle_1{
@@ -68,31 +68,48 @@
         }
     }
     .about-me-text{
-        flex-basis: 50%;
+        flex-basis: 60%;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: flex-start;
+        transition: .3s;
 
         h1{
             font-size: 4rem;
             margin-bottom: 0rem;
             position: relative;
             line-height: 1;
-            &:after{   
-                font-family: poppins;
-                font-weight: 500;
-                content: "Frontend / UI / ReactJS Developer";
-                position: absolute;
-                font-size: 1.4rem;
-                bottom: -2rem;
-                left: 0;
-                background: #FA6862;
-                padding: .2rem 1rem;
-            }
+            text-shadow: 10px 5px 5px #000;
+            transition: .3s;
+           
+        }
+        .user-title{
+            font-family: poppins;
+            font-weight: 500;
+            font-size: 1.4rem;
+            background: #FA6862;
+            padding: .5rem 1rem;
+            max-width: 370px;
+            margin: 10px 0 0;
+            transition: .3s;
         }
         p{
             font-size: 1.5rem;
+            transition: .3s;
         }
+    }
+}
+.tech-stack{
+    padding: 4rem 0;
+display: flex;
+justify-content: flex-start;
+width: 100%;
+    .tech-stack-item{
+        height: 170px;
+border: 1px solid #9E9E9E;
+padding: 1rem;
+flex: 1;
+// margin: 0 1rem;
     }
 }
 
@@ -102,12 +119,13 @@
       
     }
     25%{
-        transform: rotate(45deg) translateY(25%);
+        transform: rotate(45deg) translateY(5%);
     }
     100%{
         transform: rotate(360deg) translateY(0%);
     }
 }
+
 
 
 @media all and(min-width: 1440px){
@@ -118,6 +136,17 @@
     }
 }
 
+
+
+@media all and(max-width: 1180px){
+    .section-wrapper{
+        .about-me-text{
+             h1{
+                font-size: 3.4rem
+             }
+            }
+        }
+    }
 
 @media all and(max-width: 1024px){
     .section-wrapper{
@@ -132,6 +161,9 @@
              p{
                  font-size: 1.2rem;
              }
+             .user-title{
+                margin: 10px auto 0;
+            }
          }
     }
     
@@ -153,7 +185,21 @@
              p{
                  font-size: 1rem;
              }
+             .user-title{
+                font-size: 1rem;
+            }
          }
     }
+    
+}
+
+@media all and(max-width: 480px){
+    .section-wrapper{
+        .about-me-text{
+             .user-title{
+                font-size: .8rem;
+            }
+         }
+        }
     
 }

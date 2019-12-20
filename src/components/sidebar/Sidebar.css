@@ -13,7 +13,7 @@
     content: "";
     width: 1px;
     background: #e91d62;
-    height: 150%;
+    height: 100%;
     position: absolute;
     left: 50%;
     transition: .2s;
@@ -54,17 +54,13 @@
 
 
 
-
-
 @keyframes animate-after-sidebar{
     0%{
         transform: translateY(-100%);
-        opacity: 0;
+        opacity: 1;
         background-color: #e91d62;
     }
-    10%{
-        opacity: 1;
-    }
+    
     95%{
         transform: translateY(100%);
         opacity: 0;
