@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import * as Myphoto from "../../assets/images/terence.jpg"
+import Myphoto from "../../assets/images/terence.jpg"
 
 
 class HomeProfileImage extends Component {

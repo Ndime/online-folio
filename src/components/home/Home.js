@@ -31,19 +31,19 @@ class Home extends Component {
                     </div>
                     <div className="about-me-text">
                         <h1>Terence NDIME</h1>
-                        <span className="user-title">Frontend / UI / ReactJS Developer</span>
-                        <p>5+ years experienced,result-oriented Microsoft certified professional full stack web developer with a proven track record of developing rich internet applications using modern web technologies both on the front and backend.</p>
+                        <span className="user-title">Frontend - UI Developer - ReactJS </span>
+                        <p>7+ years experienced, result-oriented Microsoft Certified Professional (MCP) &amp; full stack web developer with a proven track record of developing rich internet applications utilizing modern web technologies in the Front &amp; Backend stack.</p>
                     </div>
 
                     
                 </div>
-                    <div className="tech-stack">
+                    {/* <div className="tech-stack">
                     <div className="tech-stack-item">heuryeure</div>
                      <div className="tech-stack-item">ererer</div>
                      <div className="tech-stack-item">sadfdsfs</div>
                      <div className="tech-stack-item">ggr</div>
                         
-                    </div>
+                    </div> */}
                 </>
            
         );

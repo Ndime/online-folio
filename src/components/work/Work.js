@@ -11,6 +11,15 @@ class Work extends Component {
     render() {
         console.log(folioLists)
         return (
+            <>
+            <h1 style={{
+    margin: 0,
+    textAlign: 'center',
+    padding: '1rem',
+    paddingTop: '2rem',
+    textDecoration: 'underline',
+    fontSize: '3rem',
+            }}>My Work</h1>
             <div className={styles.section_wrapper}>
                 {folioLists.map((curr, index) => {
                     return (
@@ -25,8 +34,9 @@ class Work extends Component {
                     )
                 })}
             </div>
+            </>
         )
-
+       
     }
 }
 
