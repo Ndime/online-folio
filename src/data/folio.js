@@ -97,7 +97,7 @@ const folio = [
     type: "Web app",
     descr: "",
     skills: ["reactjs", "jsx", "redux", "react router", "firebase", "javscript", "npm"],
-    thumbnail: require(`../assets/images/9.jpg`),
+    thumbnail: todolist,
     otherPics: [],
   },
 ];
