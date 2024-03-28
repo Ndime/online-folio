@@ -39,7 +39,13 @@ jobs:
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: us-east-1
 
       - name: Deploy static site to S3 bucket
-        run: cd build && aws s3 sync . s3://terencendime.com --delete
+        run: cd build && aws s3 sync . $S3_BUCKET_NAME --delete
+  clean:
+    runs-on: ubuntu-latest
+    needs: deploy
+
+    steps:
+      - name: Clear Cloudfront Cache
+        run: aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
