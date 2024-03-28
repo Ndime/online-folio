@@ -1,23 +1,18 @@
-import React, {Component} from 'react';
-import {BrowserRouter} from "react-router-dom"
+import React from 'react';
+import {HashRouter} from "react-router-dom"
 
 import Body from "./components/body/Body"
 import Sidebar from "./components/sidebar/Sidebar"
 
 import './App.css';
 
-class App extends Component{
-
-  render(){
+export default function App(){
     return (
       <div className="site-wrapper">
-        <BrowserRouter>
+        <HashRouter basename="/">
         <Body/>
         <Sidebar/>
-        </BrowserRouter>
+        </HashRouter>
       </div>
     )
-  }
 }
-
-export default App;

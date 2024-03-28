@@ -1,17 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class NotFound extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {  };
-    }
-    render() {
-        return (
-          <div className="section-wrapper">
-              Nothing Here
-          </div>  
-        );
-    }
+const NotFound = () =>{
+    return (
+        <div className="section-wrapper">
+            Nothing Here
+        </div>  
+    );
 }
 
 export default NotFound;

@@ -23,7 +23,14 @@
 .folio_card span{
 text-transform: uppercase;
 }
-.folio_card img{width: 100%;transition: .3s;box-shadow:2px 2px 8px 0px #111}
+.folio_card img{ width: 100%;transition: .3s;box-shadow:8px 8px 7px 0px #111}
+.folio_card:hover img{
+    box-shadow:8px 8px 7px 0px #000;
+    transform: translate(-4px, -2px);
+}
+.folio_card:hover .folio_title_descr{
+    transform: translate(-4px, -2px);
+}
 
 .folio_title_descr{
     position: absolute;

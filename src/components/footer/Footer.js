@@ -1,19 +1,11 @@
-import React, {Component} from 'react';
+import React from 'react';
 
 import "./Footer.css"
 
-class footer extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {  };
-    }
-    render() {
-        return (
-            <div className="footer">
-            © TERENCE NDIME 2019
-        </div>    
-        );
-    }
+export default function footer (){
+    return (
+        <div className="footer">
+        © Terence Ndime 2023- 2024
+    </div>    
+    );
 }
-
-export default footer;
