@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build
+      - name: Build Static Site
         run: npm run build
   deploy:
     runs-on: ubuntu-latest
