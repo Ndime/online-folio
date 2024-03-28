@@ -5,11 +5,6 @@ on:
       - master
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Building static site
-        run: npm run build
   deploy:
     runs-on: ubuntu-latest
 
@@ -25,4 +20,4 @@ jobs:
           aws-region: us-east-1
 
       - name: Deploy static site to S3 bucket
-        run: cd build && aws s3 sync . s3://terencendime.com --delete
+        run: npm run build && cd build && aws s3 sync . s3://terencendime.com --delete
