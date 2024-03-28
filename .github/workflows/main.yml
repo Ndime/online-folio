@@ -5,6 +5,11 @@ on:
       - master
 
 jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Building static site
+        run: npm run build
   deploy:
     runs-on: ubuntu-latest
 
@@ -19,9 +24,5 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
 
-      - name: Building static site
-        run: npm run build
-
       - name: Deploy static site to S3 bucket
-        run: cd build/
-        run: aws s3 sync . s3://terencendime.com --delete
+        run: cd build && aws s3 sync . s3://terencendime.com --delete
