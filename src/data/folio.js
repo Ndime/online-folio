@@ -1,13 +1,13 @@
-import raphvee from "../assets/images/1.jpg";
-import myglamsy from "../assets/images/2.jpg";
-import terence from "../assets/images/3.jpg";
-import creartfrique from "../assets/images/4.jpg";
-import simplyprepaidactivations from "../assets/images/5.jpg";
-import royalplace from "../assets/images/6.jpg";
-import ifindrental from "../assets/images/7.jpg";
-import mylewa from "../assets/images/8.jpg";
-import todolist from "../assets/images/0.jpg";
-import trypto from "../assets/images/9.jpg";
+import raphvee from "../assets/images/folio-bg/1.jpg";
+import myglamsy from "../assets/images/folio-bg/2.jpg";
+import terence from "../assets/images/folio-bg/3.jpg";
+import creartfrique from "../assets/images/folio-bg/4.jpg";
+import simplyprepaidactivations from "../assets/images/folio-bg/5.jpg";
+import royalplace from "../assets/images/folio-bg/6.jpg";
+import ifindrental from "../assets/images/folio-bg/7.jpg";
+import mylewa from "../assets/images/folio-bg/8.jpg";
+import todolist from "../assets/images/folio-bg/0.jpg";
+import trypto from "../assets/images/folio-bg/9.jpg";
 
 const folio = [
   {

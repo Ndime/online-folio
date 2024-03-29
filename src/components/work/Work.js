@@ -3,7 +3,8 @@ import React from "react";
 import folioLists from "../../data/folio";
 
 import styles from "./Work.module.css";
-export default function Work(){
+
+const Work = () => {
   return (
     <>
       <h1
@@ -14,8 +15,7 @@ export default function Work(){
           paddingTop: "2rem",
           textDecoration: "underline",
           fontSize: "3rem",
-        }}
-      >
+        }}>
         My Work
       </h1>
       <div className={styles.section_wrapper}>
@@ -35,3 +35,5 @@ export default function Work(){
     </>
   );
 };
+
+export default Work;

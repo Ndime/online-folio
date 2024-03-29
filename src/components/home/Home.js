@@ -1,6 +1,7 @@
 import React, { Suspense } from "react";
 import LazyLoad from "react-lazyload";
 import Work from "../work/Work";
+import Certs from "../certs/Certs";
 import "./Home.scss";
 
 export default function Home() {
@@ -9,21 +10,24 @@ export default function Home() {
   return (
     <>
       <div className="section-wrapper">
-        <div className="picture-of-me">
-          <Suspense
-            fallback={
-              <div style={{ display: "flex", justifyContent: "center", alignItems: "center", width: "300px", height: "300px" }}>Loading...</div>
-            }>
-            <LazyLoad>
-              <HomeProfileImage />
-            </LazyLoad>
-          </Suspense>
-          <div className="circle circle_1"></div>
-          <div className="circle circle_2"></div>
-          <div className="circle circle_3"></div>
-          <div className="circle circle_4"></div>
-          <div className="circle circle_5"></div>
-          <div className="circle circle_6"></div>
+        <div className="picture-and-cert">
+          <div className="picture-of-me">
+            <Suspense
+              fallback={
+                <div style={{ display: "flex", justifyContent: "center", alignItems: "center", width: "300px", height: "300px" }}>Loading...</div>
+              }>
+              <LazyLoad>
+                <HomeProfileImage />
+              </LazyLoad>
+            </Suspense>
+            <div className="circle circle_1"></div>
+            <div className="circle circle_2"></div>
+            <div className="circle circle_3"></div>
+            <div className="circle circle_4"></div>
+            <div className="circle circle_5"></div>
+            <div className="circle circle_6"></div>
+          </div>
+          <Certs />
         </div>
         <div className="about-me-text">
           <h1>Terence NDIME</h1>

@@ -19,7 +19,7 @@ code {
     monospace;
 }
 #root{
-  background:url(./assets/background.jpg);
+  background:url(./assets/images/background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;

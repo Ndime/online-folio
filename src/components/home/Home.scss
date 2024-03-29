@@ -4,75 +4,82 @@
     flex-wrap: wrap;
     padding: 6rem 4rem;
     overflow: hidden;
-
-    .picture-of-me{
-        display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-basis: 40%;
-    align-self: center;
     position: relative;
-    z-index: 0;
-        img{
-            border-radius: 50%;
-    max-width: 400px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    border: 5px solid #fff;
-    box-shadow: 1px 1px 35px 1px #ffffff;
-        }
-        .circle{
-            position: absolute;
-    max-width: 300px;
-    width: 100%;
-    height: 100%;
-    border-radius: 0;
-    transition: 1s;
-    animation: circle_rotate 6s infinite linear;
-    filter: blur(1px) contrast(.8);
-        }
 
-        .circle_1{
-           animation-delay: 0s;
-            background-color: #c40042;
-            z-index: -1;
-        }
-        .circle_2{
-            animation-delay: 1s;
-            background-color: #df044e;
-            z-index: -1;
-        }
-        .circle_3{
-            animation-delay: 2s;
-            background-color: #80042e;
-            z-index: -1;
-        }
-        .circle_4{
-            animation-delay: 3s;
-            background-color: #c13262;
-            z-index: -1;
-        }
-        .circle_5{
-            animation-delay: 4s;
-            background-color: #c40042;
-            z-index: -1;
-        
-        }
-        .circle_6{
-            animation-delay: 5s;
-            background-color: #6c0427;
-            z-index: -1;
+    .picture-and-cert{
+        flex-basis: 40%;
+        z-index: 1;
+        .picture-of-me{
+            display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-basis: 40%;
+        align-self: center;
+        position: relative;
+        z-index: 0;
+            img{
+                border-radius: 50%;
+        max-width: 400px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        border: 5px solid #fff;
+        box-shadow: 1px 1px 35px 1px #ffffff;
+            }
+            .circle{
+                position: absolute;
+        max-width: 300px;
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+        transition: 1s;
+        animation: circle_rotate 6s infinite linear;
+        filter: blur(1px) contrast(.8);
+            }
+    
+            .circle_1{
+               animation-delay: 0s;
+                background-color: #c40042;
+                z-index: -1;
+            }
+            .circle_2{
+                animation-delay: 1s;
+                background-color: #df044e;
+                z-index: -1;
+            }
+            .circle_3{
+                animation-delay: 2s;
+                background-color: #80042e;
+                z-index: -1;
+            }
+            .circle_4{
+                animation-delay: 3s;
+                background-color: #c13262;
+                z-index: -1;
+            }
+            .circle_5{
+                animation-delay: 4s;
+                background-color: #c40042;
+                z-index: -1;
+            
+            }
+            .circle_6{
+                animation-delay: 5s;
+                background-color: #6c0427;
+                z-index: -1;
+            }
         }
     }
+
     .about-me-text{
         flex-basis: 60%;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         transition: .3s;
+        z-index: 1;
 
         h1{
             font-size: 4rem;
@@ -97,6 +104,17 @@
             font-size: 1.5rem;
             transition: .3s;
         } 
+    }
+
+    &:after {
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #11161d;
+        z-index: 0;
     }
 }
 .tech-stack{
@@ -137,14 +155,18 @@ flex: 1;
 
 @media all and(max-width: 1600px){
     .section-wrapper{
+        .picture-and-cert{
+            flex-basis: 50%;
+        }
         .about-me-text{
-            flex-basis: 40%;
+            flex-basis: 50%;
         }
     }
 }
 
 @media all and(max-width: 1580px){
     .section-wrapper{
+        .certificationWrapper{margin-top: 30px;}  
         .picture-of-me{flex-basis: 50%;}
         .about-me-text{
             flex-basis: 50%;
@@ -201,6 +223,7 @@ flex: 1;
     .section-wrapper{
         flex-direction: column;
         align-items: center;
+        .certificationWrapper{margin-top: 80px;}  
         .picture-of-me{ transform: scale(1);}
         .about-me-text{
             text-align: center;
@@ -245,6 +268,12 @@ flex: 1;
 @media all and(max-width: 480px){
     .section-wrapper{
         padding: 3rem 2rem;
+        .certificationWrapper{
+            margin-top: 30px;
+            .certImages {
+                width: 100px;
+            }
+        } 
         .picture-of-me{transform: scale(.8);}
         .about-me-text{
             h1{ margin-top: 30px;}
