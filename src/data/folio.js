@@ -6,8 +6,8 @@ import simplyprepaidactivations from "../assets/images/5.jpg";
 import royalplace from "../assets/images/6.jpg";
 import ifindrental from "../assets/images/7.jpg";
 import mylewa from "../assets/images/8.jpg";
-import todolist from "../assets/images/9.jpg";
-import trypto from "../assets/images/0.jpg";
+import todolist from "../assets/images/0.jpg";
+import trypto from "../assets/images/9.jpg";
 
 const folio = [
   {
