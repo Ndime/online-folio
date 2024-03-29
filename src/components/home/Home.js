@@ -35,7 +35,7 @@ export default function Home() {
           <p>
             <strong>Tech Stack & Technologies - </strong> HTML, CSS, JavaScript, jQuery, ReactJS, VueJS, NodeJS, REST API's, AWS Cloud Architecture,
             Azure Cloud Architecture, Google Cloud Architecture, Jenkins, Terraform, Ansible, Docker, Kubernetes, AWS Cloud Formation, EC2, ECS, S3,
-            AWS LightSail, AWS Lambda, IAM, Git etc
+            AWS LightSail, AWS Lambda, IAM, Git, Github, Gitlab, BitBucket & CI/CD Pipelines etc
           </p>
         </div>
       </div>
