@@ -18,10 +18,13 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "rimraf /build && react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "pre-commit": [
+    "build"
+  ],
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -36,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "pre-commit": "^1.2.2"
   }
 }
