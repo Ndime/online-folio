@@ -7,7 +7,7 @@ import royalplace from "../assets/images/6.jpg";
 import ifindrental from "../assets/images/7.jpg";
 import mylewa from "../assets/images/8.jpg";
 import todolist from "../assets/images/9.jpg";
-// import trypto from "../assets/images/10.jpg";
+import trypto from "../assets/images/0.jpg";
 
 const folio = [
   {
@@ -97,7 +97,7 @@ const folio = [
     type: "Web app",
     descr: "",
     skills: ["reactjs", "jsx", "redux", "react router", "firebase", "javscript", "npm"],
-    thumbnail: mylewa,
+    thumbnail: trypto,
     otherPics: [],
   },
 ];
