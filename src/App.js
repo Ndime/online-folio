@@ -23,6 +23,7 @@ export default function App() {
     const APPLICATION_VERSION = "1.0.0";
     const APPLICATION_REGION = "us-east-1";
 
+    // eslint-disable-next-line no-unused-vars
     const awsRum = new AwsRum(APPLICATION_ID, APPLICATION_VERSION, APPLICATION_REGION, config);
   } catch (error) {
     // Ignore errors thrown during CloudWatch RUM web client initialization
