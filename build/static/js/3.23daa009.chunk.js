@@ -1,2 +1,0 @@
-(this.webpackJsonpterencendime=this.webpackJsonpterencendime||[]).push([[3],{316:function(e,t,n){"use strict";n.r(t),n.d(t,"default",(function(){return r}));n(0);var c=n.p+"static/media/terence.f41cefd6.jpg",i=n(2);function r(){return Object(i.jsx)("img",{src:c,title:"terence Ndime",alt:"Portrait of me"})}}}]);
-//# sourceMappingURL=3.23daa009.chunk.js.map

@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkterencendime=self.webpackChunkterencendime||[]).push([[203],{6185:(e,t,c)=>{c.r(t),c.d(t,{default:()=>i});c(5043);const n=c.p+"static/media/terence.f41cefd6a6b0d9cf6164.jpg";var r=c(579);function i(){return(0,r.jsx)("img",{src:n,title:"terence Ndime",alt:"Portrait of me"})}}}]);
+//# sourceMappingURL=203.0d0ec33d.chunk.js.map

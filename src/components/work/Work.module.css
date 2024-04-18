@@ -1,6 +1,6 @@
 .section_wrapper{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: flex-start;
     flex-wrap: wrap;
     padding: 1rem 1rem;

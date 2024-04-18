@@ -7,6 +7,6 @@ So basically this is a redesign and transformation of my former online prtfolio 
 
 N:B
 
-- This project has a yml file that uses Github actions to autmate its CI/CD process.
+- This project has a yml file in the `./github` folder that uses Github actions to automate its CI/CD process.
 - The yml script includes, an `npm run build` step that builds the project. It also has an AWS ClI Command that syncs the `./build` folder to an AWS S3 bucket.
-- As well as step that invaladates AWS Cloudfront via the `AWS CLI v2`
+- As well as step that invalidates AWS Cloudfront cache via the `AWS CLI v2`
