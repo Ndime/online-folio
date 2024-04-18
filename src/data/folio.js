@@ -101,9 +101,9 @@ const folio = [
     otherPics: [],
   },
   {
-    name: "noble med wear",
-    link: "https://noblemedwears.com",
-    type: "ecommerce",
+    name: "fehdan meat processing",
+    link: "https://fehdan.com",
+    type: "meat processing plant",
     descr: "",
     skills: ["wordpress", "woocommerce", "html", "css", "javscript", "jQuery", "php", "mysql"],
     thumbnail: ifindrental,
