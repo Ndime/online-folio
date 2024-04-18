@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-So basically this is a redesign and transformation of my former online prtfolio (before 2022) terencendime.com using reactJS & Redux etc
+So basically this is a redesign and transformation of my former online portfolio (before 2022) terencendime.com using reactJS & Redux etc
 
 - Clone Project
 - run npm install
