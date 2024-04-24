@@ -118,6 +118,15 @@ const folio = [
     thumbnail: todolist,
     otherPics: [],
   },
+  {
+    name: "cameroon hymnal",
+    link: "https://thehymnal.divynemedia.com",
+    type: "church hymns",
+    descr: "",
+    skills: ["react", "redux", "html", "css", "javscript"],
+    thumbnail: todolist,
+    otherPics: [],
+  },
 ];
 
 export default folio;
