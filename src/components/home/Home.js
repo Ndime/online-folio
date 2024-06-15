@@ -34,12 +34,13 @@ export default function Home() {
           <span className="user-title">FullStack Developer - Cloud Architect</span>
           <p>
             10 years experienced, full stack web developer & Cloud Architect with a proven track record of developing rich internet applications and
-            building cloud architectures using modern web technologies & the cloud in the Front &amp; Backend stack.
+            building cloud architectures using modern web technologies.
           </p>
           <p>
             <strong>Tech Stack & Technologies - </strong> HTML, CSS, JavaScript, jQuery, ReactJS, VueJS, NodeJS, REST API's, AWS Cloud Architecture,
             Azure Cloud Architecture, Google Cloud Architecture, Jenkins, Terraform, Ansible, Docker, Kubernetes, AWS Cloud Formation, EC2, ECS, S3,
-            AWS LightSail, AWS Lambda, IAM, Git, Github, Gitlab, BitBucket & CI/CD Pipelines etc
+            AWS LightSail, Lambda, IAM, Git, Github, Gitlab, BitBucket, CodeCommit, CodeBuild, CodeDeploy, CodePipeline, DynamoDB, Route53, CloudFront
+            etc
           </p>
         </div>
       </div>
