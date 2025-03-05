@@ -31,7 +31,7 @@ export default function Home() {
         </div>
         <div className="about-me-text">
           <h1>Terence NDIME</h1>
-          <span className="user-title">FullStack Developer - Cloud Architect</span>
+          <span className="user-title">Javascript - React - Cloud Developer</span>
           <p>
             10 years experienced, full stack web developer & Cloud Architect with a proven track record of developing rich internet applications and
             building cloud architectures using modern web technologies.
