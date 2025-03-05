@@ -33,8 +33,7 @@ export default function Home() {
           <h1>Terence NDIME</h1>
           <span className="user-title">Javascript - React - Cloud Developer</span>
           <p>
-            10 years experienced, full stack web developer & Cloud Architect with a proven track record of developing rich internet applications and
-            building cloud architectures using modern web technologies.
+            10 years experienced frontend developer, self starter, with a good knowledge of the CI/CD process & cloud technologies. I have spent 8 of my 10 years of experience utilizing frontend tecnologies (e.g HTML, CSS, Javascipt, jQuery & Reac) to develop ans support rich internet applications throughout my carreer.
           </p>
           <p>
             <strong>Tech Stack & Technologies - </strong> HTML, CSS, JavaScript, jQuery, ReactJS, VueJS, NodeJS, REST API's, AWS Cloud Architecture,
