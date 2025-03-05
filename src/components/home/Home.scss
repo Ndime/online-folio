@@ -145,7 +145,7 @@ flex: 1;
 }
 
 
-@media all and(min-width: 1440px){
+@media all and (min-width: 1440px){
     .section-wrapper{
         .about-me-text p {
             padding-right: 8rem;
@@ -153,7 +153,7 @@ flex: 1;
     }
 }
 
-@media all and(max-width: 1600px){
+@media all and (max-width: 1600px){
     .section-wrapper{
         .picture-and-cert{
             flex-basis: 50%;
@@ -164,7 +164,7 @@ flex: 1;
     }
 }
 
-@media all and(max-width: 1580px){
+@media all and (max-width: 1580px){
     .section-wrapper{
         .certificationWrapper{margin-top: 30px;}  
         .picture-of-me{flex-basis: 50%;}
@@ -175,13 +175,13 @@ flex: 1;
     }
 }
 
-@media all and(max-width: 1400px){
+@media all and (max-width: 1400px){
     .section-wrapper{
         .picture-of-me{transform: scale(.8);}
         }
     }
 
-    @media all and(max-width: 1200px){
+    @media all and (max-width: 1200px){
         .section-wrapper{
             .picture-of-me{transform: scale(.8);}
             .about-me-text{
@@ -190,7 +190,7 @@ flex: 1;
             }
         }
 
-@media all and(max-width: 1180px){
+@media all and (max-width: 1180px){
     .section-wrapper{
         .about-me-text{
              h1{
@@ -203,7 +203,7 @@ flex: 1;
             }
         }
     }
-    @media all and(max-width: 1080px){
+    @media all and (max-width: 1080px){
         .section-wrapper{
             .picture-of-me{ transform: scale(0.7);}
             .about-me-text{
@@ -219,7 +219,7 @@ flex: 1;
                 }
             }
         }
-@media all and(max-width: 1024px){
+@media all and (max-width: 1024px){
     .section-wrapper{
         flex-direction: column;
         align-items: center;
@@ -246,7 +246,7 @@ flex: 1;
 
 
 
-@media all and(max-width: 580px){
+@media all and (max-width: 580px){
     .section-wrapper{
         flex-direction: column;
         align-items: center;
@@ -265,7 +265,7 @@ flex: 1;
     
 }
 
-@media all and(max-width: 480px){
+@media all and (max-width: 480px){
     .section-wrapper{
         padding: 3rem 2rem;
         .certificationWrapper{

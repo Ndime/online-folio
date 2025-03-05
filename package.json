@@ -6,14 +6,14 @@
   "dependencies": {
     "aws-rum-web": "^1.17.1",
     "axios": "^1.6.8",
-    "node-sass": "^9.0.0",
     "react": "^18.0.0",
     "react-app-polyfill": "^1.0.6",
     "react-dom": "^18.0.0",
     "react-eva-icons": "0.0.8",
     "react-lazyload": "^2.6.9",
     "react-router-dom": "^6.4.0",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "sass": "^1.85.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -41,6 +41,6 @@
     ]
   },
   "devDependencies": {
-    "pre-commit": "^1.2.2"
+    "pre-commit": "^1.0.10"
   }
 }
