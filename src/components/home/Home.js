@@ -31,7 +31,7 @@ export default function Home() {
         </div>
         <div className="about-me-text">
           <h1>Terence NDIME</h1>
-          <span className="user-title">Javascript - React - Cloud Developer</span>
+          <span className="user-title">Lead Frontend JS/React & Cloud Developer</span>
           <p>
             10 years experienced frontend developer, self starter, with a good knowledge of the CI/CD process & cloud technologies. I have spent 8 of my 10 years of experience utilizing frontend tecnologies (e.g HTML, CSS, Javascipt, jQuery & React JS) to develop and support rich internet applications throughout my carreer.
           </p>
