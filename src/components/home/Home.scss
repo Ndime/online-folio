@@ -41,33 +41,33 @@
     
             .circle_1{
                animation-delay: 0s;
-                background-color: #c40042;
+                background-color: #d4e4f2;// #2c95f2;
                 z-index: -1;
             }
             .circle_2{
                 animation-delay: 1s;
-                background-color: #df044e;
+                background-color: #d3ecf4;// #5cd5fb;
                 z-index: -1;
             }
             .circle_3{
                 animation-delay: 2s;
-                background-color: #80042e;
+                background-color: #f2f2f2;// #2196F3;
                 z-index: -1;
             }
             .circle_4{
                 animation-delay: 3s;
-                background-color: #c13262;
+                background-color: #828495;// #101d8d;
                 z-index: -1;
             }
             .circle_5{
                 animation-delay: 4s;
-                background-color: #c40042;
+                background-color: #8fa3b9;// #1d64b5;
                 z-index: -1;
             
             }
             .circle_6{
                 animation-delay: 5s;
-                background-color: #6c0427;
+                background-color: #cecffa;// #3738f7;
                 z-index: -1;
             }
         }
@@ -93,7 +93,8 @@
             font-family: poppins;
             font-weight: 500;
             font-size: 1.4rem;
-            background: #c40042;
+            background: #fff; // #c40042;
+            color: #11161d;
             padding: .5rem 1rem;
             width: 100%;
             max-width: 490px;
