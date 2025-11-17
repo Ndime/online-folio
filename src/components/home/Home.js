@@ -1,5 +1,6 @@
 import React, { Suspense } from "react";
 import LazyLoad from "react-lazyload";
+import Snowfall from 'react-snowfall'
 import Work from "../work/Work";
 import Certs from "../certs/Certs";
 import "./Home.scss";
@@ -10,6 +11,22 @@ export default function Home() {
   return (
     <>
       <div className="section-wrapper">
+
+        <Snowfall
+  // Changes the snowflake color
+  color="white"
+  // Controls the number of snowflakes that are created (default 150)
+  snowflakeCount={200}
+
+  // Applied to the canvas element
+    style={{
+    position: 'fixed',
+    width: '100vw',
+    height: '100vh',
+        zIndex: 2,
+  }}
+  
+/>
         <div className="picture-and-cert">
           <div className="picture-of-me">
             <Suspense
